@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         {
             SmsManager smsManager = SmsManager.getDefault();
             smsManager.sendTextMessage(phoneNumber, null, smsBody, null, null);
-            //Toast.makeText(getApplicationContext(),"구~",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"구~",Toast.LENGTH_LONG).show();
 
         }
         catch(Exception e)
